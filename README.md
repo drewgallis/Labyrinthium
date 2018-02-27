@@ -1,6 +1,8 @@
 # Labyrinthium
 ## Three Dimensional Randomly Generated Maze Game Implemented In Python
 
+---
+
 ### Current Progress:
 + Need to create a user interface w/ python libraries to simulate the maze
 
@@ -10,13 +12,18 @@
 * Base UI [Our Own Created Game Graphics]
 * Final UI [Good Graphics, Sleek User Interface, and Extra Additional Setup]
 
-#### Movement Dimensions:
-* Forward [0,1]
-* Backward [0,0]
-* Up [1,1]
-* Down [1,0]
-* Left [2,1]
-* Right [2,0]
+---
+
+## Game Logic:
+#### Movement Dimensions Figure:
+| Move          |Direction Val | Ploarity |
+| :------------- |:------------:| :--------:|
+| `forward`      | 0            | 1        |
+| `backward`     | 0            | 0        | 
+| `up`           | 1            | 1        | 
+| `down`         | 1            | 0        | 
+| `left`         | 2            | 1        | 
+| `right`         | 2            | 0        | 
 
 #### Text Controlled Game:
 + User information and Defaults are set
