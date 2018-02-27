@@ -14,7 +14,7 @@
 
 ---
 
-## Game Logic:
+## `CURRENT`Game Logic:
 #### Movement Dimensions Figure:
 | Move          |Direction Val | Ploarity |
 | :------------- |:------------:| :--------:|
